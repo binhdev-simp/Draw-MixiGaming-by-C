@@ -9,7 +9,7 @@ gets(a);
 printf("Nhap ngay sinh :");
 gets(a);
 printf("\nTuyet voi =>>\n");
-for(int i=0;i<=100;i++)
+for(int i=0;i<=100;i=i+10)
 {
 printf("Dang xu ly %d%%\n",i);
 Sleep(10);
